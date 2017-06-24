@@ -2,16 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2017-06-21T18:06:31Z" finished-at="2017-06-21T18:06:31Z">
+  <suite name="Default suite" duration-ms="18" started-at="2017-06-24T16:25:26Z" finished-at="2017-06-24T16:25:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2017-06-21T18:06:31Z" finished-at="2017-06-21T18:06:31Z">
-      <class name="com.freeautomationlearning.Tutorial2">
-        <test-method status="PASS" signature="firstTestNGRun()[pri:0, instance:com.freeautomationlearning.Tutorial2@4590c9c3]" name="firstTestNGRun" duration-ms="14" started-at="2017-06-21T23:36:31Z" finished-at="2017-06-21T23:36:31Z">
+    <test name="Default test" duration-ms="18" started-at="2017-06-24T16:25:26Z" finished-at="2017-06-24T16:25:26Z">
+      <class name="com.freeautomationlearning.Tutorial4">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTestNGRun -->
-      </class> <!-- com.freeautomationlearning.Tutorial2 -->
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testScript()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="testScript" duration-ms="4" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.freeautomationlearning.Tutorial4@48eff760]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-06-24T21:55:26Z" finished-at="2017-06-24T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.freeautomationlearning.Tutorial4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
