@@ -1,59 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44547" started-at="2017-06-28T18:43:21Z" finished-at="2017-06-28T18:44:05Z">
+  <suite name="Default suite" duration-ms="790" started-at="2017-06-29T19:22:24Z" finished-at="2017-06-29T19:22:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44547" started-at="2017-06-28T18:43:21Z" finished-at="2017-06-28T18:44:05Z">
-      <class name="com.freeautomationlearning.Tutorial7">
-        <test-method status="SKIP" signature="searchKeywords(java.lang.String)[pri:0, instance:com.freeautomationlearning.Tutorial7@65466a6a]" name="searchKeywords" duration-ms="0" started-at="2017-06-29T00:14:03Z" data-provider="readData" finished-at="2017-06-29T00:14:03Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 1
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
-	at com.freeautomationlearning.Tutorial7.readData(Tutorial7.java:54)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+    <test name="Default test" duration-ms="790" started-at="2017-06-29T19:22:24Z" finished-at="2017-06-29T19:22:24Z">
+      <class name="com.freeautomationlearning.Tutorial8a">
+        <test-method status="PASS" signature="searchKeyword()[pri:0, instance:com.freeautomationlearning.Tutorial8a@169e6180]" name="searchKeyword" duration-ms="231" started-at="2017-06-30T00:52:24Z" finished-at="2017-06-30T00:52:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchKeywords -->
-      </class> <!-- com.freeautomationlearning.Tutorial7 -->
+        </test-method> <!-- searchKeyword -->
+        <test-method status="PASS" signature="searchKeyword()[pri:0, instance:com.freeautomationlearning.Tutorial8a@20ccf40b]" name="searchKeyword" duration-ms="192" started-at="2017-06-30T00:52:24Z" finished-at="2017-06-30T00:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchKeyword -->
+        <test-method status="PASS" signature="searchKeyword()[pri:0, instance:com.freeautomationlearning.Tutorial8a@2fb3536e]" name="searchKeyword" duration-ms="327" started-at="2017-06-30T00:52:24Z" finished-at="2017-06-30T00:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchKeyword -->
+      </class> <!-- com.freeautomationlearning.Tutorial8a -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
