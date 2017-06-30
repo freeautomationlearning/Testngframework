@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="790" started-at="2017-06-29T19:22:24Z" finished-at="2017-06-29T19:22:24Z">
+  <suite name="Default suite" duration-ms="18189" started-at="2017-06-30T19:49:02Z" finished-at="2017-06-30T19:49:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="790" started-at="2017-06-29T19:22:24Z" finished-at="2017-06-29T19:22:24Z">
-      <class name="com.freeautomationlearning.Tutorial8a">
-        <test-method status="PASS" signature="searchKeyword()[pri:0, instance:com.freeautomationlearning.Tutorial8a@169e6180]" name="searchKeyword" duration-ms="231" started-at="2017-06-30T00:52:24Z" finished-at="2017-06-30T00:52:24Z">
+    <test name="Default test" duration-ms="18189" started-at="2017-06-30T19:49:02Z" finished-at="2017-06-30T19:49:20Z">
+      <class name="com.freeautomationlearning.Tutorial10">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.freeautomationlearning.Tutorial10@6d78f375]" name="setUP" is-config="true" duration-ms="11888" started-at="2017-07-01T01:19:02Z" finished-at="2017-07-01T01:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="searchKeyword(java.lang.String)[pri:0, instance:com.freeautomationlearning.Tutorial10@6d78f375]" name="searchKeyword" duration-ms="5200" started-at="2017-07-01T01:19:14Z" finished-at="2017-07-01T01:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium 3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchKeyword -->
-        <test-method status="PASS" signature="searchKeyword()[pri:0, instance:com.freeautomationlearning.Tutorial8a@20ccf40b]" name="searchKeyword" duration-ms="192" started-at="2017-06-30T00:52:24Z" finished-at="2017-06-30T00:52:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freeautomationlearning.Tutorial10@6d78f375]" name="tearDown" is-config="true" duration-ms="1039" started-at="2017-07-01T01:19:19Z" finished-at="2017-07-01T01:19:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchKeyword -->
-        <test-method status="PASS" signature="searchKeyword()[pri:0, instance:com.freeautomationlearning.Tutorial8a@2fb3536e]" name="searchKeyword" duration-ms="327" started-at="2017-06-30T00:52:24Z" finished-at="2017-06-30T00:52:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchKeyword -->
-      </class> <!-- com.freeautomationlearning.Tutorial8a -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.freeautomationlearning.Tutorial10 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
