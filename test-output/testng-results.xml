@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18189" started-at="2017-06-30T19:49:02Z" finished-at="2017-06-30T19:49:20Z">
+  <suite name="Smoke" duration-ms="15678" started-at="2017-07-01T18:18:26Z" finished-at="2017-07-01T18:18:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18189" started-at="2017-06-30T19:49:02Z" finished-at="2017-06-30T19:49:20Z">
-      <class name="com.freeautomationlearning.Tutorial10">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.freeautomationlearning.Tutorial10@6d78f375]" name="setUP" is-config="true" duration-ms="11888" started-at="2017-07-01T01:19:02Z" finished-at="2017-07-01T01:19:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="searchKeyword(java.lang.String)[pri:0, instance:com.freeautomationlearning.Tutorial10@6d78f375]" name="searchKeyword" duration-ms="5200" started-at="2017-07-01T01:19:14Z" finished-at="2017-07-01T01:19:19Z">
+    <test name="Window" duration-ms="15678" started-at="2017-07-01T18:18:26Z" finished-at="2017-07-01T18:18:42Z">
+      <class name="com.freeautomationlearning.Tutorial11">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freeautomationlearning.Tutorial11@5f375618]" name="setUp" is-config="true" duration-ms="8131" started-at="2017-07-01T23:48:26Z" finished-at="2017-07-01T23:48:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Selenium 3]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchKeyword -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freeautomationlearning.Tutorial10@6d78f375]" name="tearDown" is-config="true" duration-ms="1039" started-at="2017-07-01T01:19:19Z" finished-at="2017-07-01T01:19:20Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="serachKeyWord()[pri:0, instance:com.freeautomationlearning.Tutorial11@5f375618]" name="serachKeyWord" duration-ms="6352" started-at="2017-07-01T23:48:34Z" finished-at="2017-07-01T23:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachKeyWord -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freeautomationlearning.Tutorial11@5f375618]" name="tearDown" is-config="true" duration-ms="1173" started-at="2017-07-01T23:48:41Z" finished-at="2017-07-01T23:48:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.freeautomationlearning.Tutorial10 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.freeautomationlearning.Tutorial11 -->
+    </test> <!-- Window -->
+  </suite> <!-- Smoke -->
 </testng-results>
