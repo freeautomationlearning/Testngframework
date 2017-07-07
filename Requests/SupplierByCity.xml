@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webservicex.net/">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetSupplierByCity>
+         <!--Optional:-->
+         <web:City>NEW YORK</web:City>
+      </web:GetSupplierByCity>
+   </soap:Body>
+</soap:Envelope>

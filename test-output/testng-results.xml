@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1711" started-at="2017-07-05T18:19:13Z" finished-at="2017-07-05T18:19:14Z">
+  <suite name="Default suite" duration-ms="8608" started-at="2017-07-07T19:27:04Z" finished-at="2017-07-07T19:27:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1711" started-at="2017-07-05T18:19:13Z" finished-at="2017-07-05T18:19:14Z">
-      <class name="com.freeautomationlearning.Tutorial14">
-        <test-method status="PASS" signature="getResponseGoogleMaps()[pri:0, instance:com.freeautomationlearning.Tutorial14@7c0e2abd]" name="getResponseGoogleMaps" duration-ms="1687" started-at="2017-07-05T23:49:13Z" finished-at="2017-07-05T23:49:14Z">
+    <test name="Default test" duration-ms="8608" started-at="2017-07-07T19:27:04Z" finished-at="2017-07-07T19:27:12Z">
+      <class name="com.freeautomationlearning.Tutorial15">
+        <test-method status="PASS" signature="getSoapResponse()[pri:0, instance:com.freeautomationlearning.Tutorial15@402f32ff]" name="getSoapResponse" duration-ms="8569" started-at="2017-07-08T00:57:04Z" finished-at="2017-07-08T00:57:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getResponseGoogleMaps -->
-      </class> <!-- com.freeautomationlearning.Tutorial14 -->
+        </test-method> <!-- getSoapResponse -->
+      </class> <!-- com.freeautomationlearning.Tutorial15 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
